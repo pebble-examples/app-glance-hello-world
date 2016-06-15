@@ -1,0 +1,31 @@
+{
+  "name": "app-glance-hello-world",
+  "author": "MakeAwesomeHappen",
+  "version": "1.0.0",
+  "keywords": [
+    "pebble-app"
+  ],
+  "private": true,
+  "dependencies": {
+  },
+  "pebble": {
+    "displayName": "app-glance-hello-world",
+    "uuid": "de40760b-1dec-4b7b-92ae-c3c0fcfa75be",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "basalt",
+      "chalk",
+      "diorite"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+      "media": [ ]
+    }
+  }
+}
